@@ -1,0 +1,222 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#img1{
+	height: 50px;
+	width: 150px;
+	position: relative;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+ }
+ .about_image{
+ 	padding: 30px;
+ }
+.about_image img{
+	height: 400px;
+	width: 500px;
+	margin-top: 50px;
+	justify-content: center;
+	align-items: center;
+}
+.section-heading {
+  text-align: center;
+  margin-bottom: 60px;
+  justify-content: space-between;
+}
+.section-heading .title {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  color: #555;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.section-heading .title .color {
+  color: #7280ff;
+}
+.section-heading .title .bg-text {
+  position: absolute;
+  text-transform: uppercase;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 85px;
+  z-index: -1;
+  opacity: 0.10;
+}
+#choose .col-lg-3 h1{
+  font-weight: 600;
+  font-size: 20px;
+}
+#choose .col-lg-3 img{
+   height: 75px;
+   width: 75px;
+   border-radius: 50%;
+   margin-bottom: 10px;
+   border: 1px solid gray;
+   padding: 5px;
+}
+.page-title {
+    position: relative;
+    padding: 50px 0 65px;
+}
+.page-title h3{
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.bg-title {
+    background: url(title-light.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+}
+.overlay-dark::before {
+    content: '';
+    /* background: -webkit-linear-gradient(-45deg, #1e5799 0%, #1d1546 0%, #1a0b25 100%, #207cca 100%); */
+    background: lightskyblue;
+    opacity: 0.3;   
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.index{
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	padding-top: 10px;
+}
+a{
+	color: white;
+}
+
+
+footer{	
+	font-size: 17px;
+}
+footer h5{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 22px;
+}
+footer li{
+	padding: 3px;
+}
+footer li a{
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	text-decoration: none;
+	color: orange;
+}
+footer li i{
+	color: orange;
+	padding: 8px;
+	font-size: 18px;
+}
+.footer-bottom{
+	border-top: 1px solid #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:18px;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+	border-bottom: 1px solid #fff;	
+}
+.footer-social-icon{
+	display: flex;
+}
+
+.footer-social-icon i{
+	font-size: 28px;
+}
+.footer-social-icon i:hover{
+	color: white;
+}
+.services-sec .section-title {
+	margin: 0 0 10px;
+}
+.inner-content-wrapper.services-sec {
+	padding: 40px 0 80px;
+}
+/** Single Service Sec **/
+.single_service {
+	background: #fff none repeat scroll 0 0;
+	border-radius: 6px;
+	box-shadow: 0px 20px 60px #6059BB12;
+	margin-bottom: 30px;
+	padding: 30px;
+	transition: all 0.3s ease 0s;
+	margin: 40px 0 0;
+	text-align: center;
+}
+.single_service:hover {
+	background: #1a76d1;
+	box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
+}
+.single_service .icon {
+	width: 60px;
+	height: 60px;
+	background: #1a76d1;
+	border-radius: 50%;
+	line-height: 60px;
+	margin: 0 0 15px;
+	display: inline-block;
+}
+.single_service:hover .icon {
+	background: #fff;
+}
+.single_service:hover .icon i {
+	color: #1a76d1;;
+}
+.single_service_inner {
+	border: 1px dashed #1a76d1;
+	padding: 30px;
+	position: relative;
+	z-index: 9;
+	transition: all 0.4s ease 0s;
+	text-align: center;
+}
+.single_service i {
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 999;
+	line-height: 60px;
+}
+.single_service h4 {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	margin-top: 0;
+	position: relative;
+	text-transform: capitalize;
+	z-index: 999;
+	transition: all 0.3s ease 0s;
+}
+.single_service p {
+	margin-bottom: 0;
+	position: relative;
+	z-index: 999;
+}
+.single_service:hover .single_service_inner {
+	border: 1px dashed #fff;
+}
+.single_service:hover i {
+	color: #fff;
+}
+.single_service:hover h4 {
+	color: #fff;
+}
+.single_service:hover p {
+	color: #fff;
+}
